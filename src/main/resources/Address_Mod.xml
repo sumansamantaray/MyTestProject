@@ -1,0 +1,42 @@
+<ADDRESS_MOD xmlns="http://www.atis.org/OBF/ASR/UOM-ASRNotify">
+  <HDR>
+    <MESSAGE_ID>abcCX1482312015</MESSAGE_ID>
+    <CCNA>GBW</CCNA>
+    <MSG_TIMESTAMP>2019-12-20T15:50:03.956-05:00</MSG_TIMESTAMP>
+    <ICSC>PA70</ICSC>
+    <ASOG_VER>59</ASOG_VER>
+    <PON>1482312</PON>
+    <REQTYP>ED</REQTYP>
+    <ACT>N</ACT>
+    <VER>AA</VER>
+    <SR_STATE>QUERY_ON_HOLD</SR_STATE>
+  </HDR>
+  <CNR>
+    <CNT>L</CNT>
+    <CNR_VER>10</CNR_VER>
+    <D_SENT>20191220</D_SENT>
+    <T_SENT>1548</T_SENT>
+    <INIT>EDDIE RODRIGUEZ</INIT>
+    <INIT_TEL>6464481835</INIT_TEL>
+    <AP_REP>REP ON DUTY</AP_REP>
+    <AP_REP_TEL>8008910301</AP_REP_TEL>
+    <REMARKS>PRILOC LD1,LV1,LD3,LV3 HAS BEEN CHANGED BASED ON ENGINEER
+          FEEDBACK LD1 has been changed to BLDG,LV1 has been changed to 300,LD3 has been changed to SUIT,LV3 has been changed to 10,  Customer Contact providing infor</REMARKS>
+  </CNR>
+  <LOCATION_ID>
+    <REFNUM>0001</REFNUM>
+    <PI>Y</PI>
+    <ADDR>
+      <SANO>801</SANO>
+      <SASN>CASSATT</SASN>
+      <SATH>RD</SATH>
+      <LD1>BLDG</LD1>
+      <LV1>300</LV1>
+      <LD3>SUIT</LD3>
+      <LV3>10</LV3>
+      <CITY>TREDYFFRIN</CITY>
+      <STATE>PA</STATE>
+      <ZIP>19312</ZIP>
+    </ADDR>
+  </LOCATION_ID>
+</ADDRESS_MOD>

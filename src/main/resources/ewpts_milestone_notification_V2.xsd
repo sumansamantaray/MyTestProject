@@ -1,0 +1,102 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://www.suman.com/EWPTS/MILESTONE/RESPONSE" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="AB_EWPTS_MILESTONE_NOTIFICATION">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="HEADER">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="MESSAGE_ID">                
+              </xs:element>
+              <xs:element type="xs:string" name="MSG_TIMESTAMP"/>
+              <xs:element type="xs:byte" name="VERSION_NUMBER">
+                <xs:annotation>
+                  <xs:documentation>Order Version</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="MILESTONE_DATA">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="PON"/>
+              <xs:element type="xs:string" name="AB_ORDER_NUMBER"/>
+              <xs:element type="xs:string" name="MILESTONE_STATUS">
+                <xs:annotation>
+                  <xs:documentation>Major Milestone PROVISIONING, COMMITMENT etc.</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element type="xs:string" name="MILESTONE_SUB_STATUS">
+                <xs:annotation>
+                  <xs:documentation>Minor Milestone Design, PROVISIONING READY, DISPATCH etc.</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element type="xs:string" name="MILESTONE_BUILD_TYPE">
+                <xs:annotation>
+                  <xs:documentation>Build Scope Major/Minor</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element type="xs:string" name="MILESTONE_BUILD_STATUS">
+                <xs:annotation>
+                  <xs:documentation>IN PROGRESS OR COMPLETED  Are there any dates associated with this field ???</xs:documentation>
+                </xs:annotation>
+              </xs:element>
+              <xs:element type="xs:string" name="ENGINEERING_WORK_ORDER"/>
+              <xs:element type="xs:string" name="CAPACITY_CREATION_REQ"/>
+              <xs:element type="xs:short" name="BILLING_ACCOUNT_NUMBER"/>
+              <xs:element name="MILESTONES">                
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="MILESTONE" maxOccurs="unbounded" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:string" name="NAME"/>
+                          <xs:element type="xs:string" name="SCHEDULED"/>
+                          <xs:element type="xs:string" name="COMPLETED"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="CIRCUIT_DATA">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="CIRCUITS">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="CIRCUIT" maxOccurs="unbounded" minOccurs="0">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="CIRCUIT_TYPE">
+                                  <xs:annotation>
+                                    <xs:documentation>Circuit type. UNI or EVC  Circuit type. UNI or EVC</xs:documentation>
+                                  </xs:annotation>
+                                </xs:element>
+                                <xs:element type="xs:string" name="CIRCUIT_ID"/>
+                                <xs:element type="xs:string" name="CUST_CIRCUIT_ID"/>
+                                <xs:element type="xs:string" name="CIRCUIT_SERVICE_ORDER"/>
+                                <xs:element name="VLAN" maxOccurs="unbounded" minOccurs="0">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element type="xs:string" name="START"/>
+                                      <xs:element type="xs:string" name="END"/>
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

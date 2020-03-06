@@ -1,0 +1,177 @@
+{
+	"messageId": "MCI2683585233673701/8A006",
+	"customerId": "MCI",
+	"orderId": "N001",
+	"orderDate": "2019-01-25T16:08:31.000+0000",
+	"orderStatus": "Commitment Set",
+	"pon": "2765679833842601",
+	"orderType": "New",
+	"productName": "String",
+	"billingAccount": "617M170009",
+	"remarks": "EVC BAN/CUS - 212-M96-6-00 594 ATLS = /ATLS/000106627/128 IP-172.1.1.1,SUBNET MASK-255.255.255.252 SR02JJ8L-001",
+	"orderMilestoneInfo": [{
+		"milestoneDate": "2019-01-25T16:08:31.000+0000",
+		"milestoneLabel": "Order Commitment",
+		"version": 6,
+		"parentBucket": "Billing",
+		"remarks": "No action is required, please do not send SUPP to change the BAN",
+		"customerNotification": {
+			"milestoneStatus": "Completed",
+			"milestoneCompletionDate": "2019-01-25T16:08:31.000+0000",
+			"minorMilestoneDetails": {
+				"milestoneAttributes": [
+					[{
+							"name": "Service Order",
+							"value": "ABCD1234"
+						},
+						{
+							"name": "Order Name",
+							"value": "IA24115486"
+						},
+						{
+							"name": "Commitment Date",
+							"value": "2019-08-14T04:00:00.000+0000"
+						},
+						{
+							"name": "Plant Test Date Scheduled",
+							"value": "2019-09-16T04:00:00.000+0000"
+						},
+						{
+							"name": "Wired Office Test Date Scheduled",
+							"value": "2019-09-09T04:00:00.000+0000"
+						},
+						{
+							"name": "Service Establishment Date",
+							"value": null
+						},
+						{
+							"name": "Frame Continuity Date Scheduled",
+							"value": "2019-09-10T04:00:00.000+0000"
+						},
+
+						{
+							"name": "Due Date Scheduled",
+							"value": "2019-09-17T04:00:00.000+0000"
+						},
+						{
+							"name": "Customer Ready Date",
+							"value": "2019-08-30T04:00:00.000+0000"
+						},
+						{
+							"name": "Order Verified Date",
+							"value": "2019-07-01T04:00:00.000+0000"
+						},
+						{
+							"name": "BAN",
+							"value": "315M170021"
+						},
+						{
+							"name": "Build Scope",
+							"value": null
+						},
+						{
+							"name": "Remarks",
+							"value": "EVC BAN/CUS - 212-M96-0035 604 AB: SR02LVB5-001 E/U:  CKL1: MANAGE ON DUTY,315-466-7002-, (Cust Ready Date) 08-30-19,08/30/"
+						}
+					],
+					[{
+							"name": "Service Order",
+							"value": "BDFFG12"
+						}, {
+							"name": "Order Name",
+							"value": "IA24115486"
+						},
+						{
+							"name": "Commitment Date",
+							"value": "2019-08-14T04:00:00.000+0000"
+						},
+						{
+							"name": "Plant Test Date Scheduled",
+							"value": "2019-09-16T04:00:00.000+0000"
+						},
+						{
+							"name": "Wired Office Test Date Scheduled",
+							"value": "2019-09-09T04:00:00.000+0000"
+						},
+						{
+							"name": "Service Establishment Date",
+							"value": null
+						},
+						{
+							"name": "Frame Continuity Date Scheduled",
+							"value": "2019-09-10T04:00:00.000+0000"
+						},
+
+						{
+							"name": "Due Date Scheduled",
+							"value": "2019-09-17T04:00:00.000+0000"
+						},
+						{
+							"name": "Customer Ready Date",
+							"value": "2019-08-30T04:00:00.000+0000"
+						},
+						{
+							"name": "Order Verified Date",
+							"value": "2019-07-01T04:00:00.000+0000"
+						},
+						{
+							"name": "BAN",
+							"value": "315M170021"
+						},
+						{
+							"name": "Build Scope",
+							"value": null
+						},
+						{
+							"name": "Remarks",
+							"value": "EVC BAN/CUS - 212-M96-0035 604 AB: SR02LVB5-001 E/U:  CKL1: MANAGE ON DUTY,315-466-7002-, (Cust Ready Date) 08-30-19,08/30/"
+						}
+					],
+					[{
+						"name": "Type",
+						"value": "UNI"
+					}, {
+						"name": "Circuit Id",
+						"value": "01"
+					}, {
+						"name": "Customer Circuit Id",
+						"value": "custCiruit UNI"
+					}, {
+						"name": "Service Order",
+						"value": "Service Order UNI"
+					}],
+
+					[{
+						"name": "Type",
+						"value": "EVC"
+					}, {
+						"name": "Circuit Id",
+						"value": "02"
+					}, {
+						"name": "Customer Circuit Id",
+						"value": "custCiruit EVC"
+					}, {
+						"name": "Service Order",
+						"value": "Service Order EVC"
+					}],
+					[{
+						"name": "type",
+						"value": "vlan"
+					}, {
+						"name": "Start",
+						"value": "001"
+					}, {
+						"name": "End",
+						"value": "200"
+					}, {
+						"name": "Start",
+						"value": "201"
+					}, {
+						"name": "end",
+						"value": "500"
+					}]
+				]
+			}
+		}
+	}]
+}

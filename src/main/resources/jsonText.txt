@@ -1,0 +1,24 @@
+ {
+  "messageId" : "abcCX20181130b327a015-837",
+  "customerId" : "ATX",
+  "orderId" : "6573",
+  "orderDate" : 1543583977994,
+  "orderStatus" : "Accepted",
+  "orderType" : "New",
+  "pon" : "UNIEVCCX1119SJ01",
+  "productName" : "TLS",
+  "billingAccount" : null,
+  "remarks" : null,
+  "orderMilestoneInfo" : [ {
+    "milestoneDate" : 1543583977994,
+    "milestoneLabel" : "Order Accepted",
+    "displaySequence" : "837",
+    "parentBucket" : "Ordering",
+    "repName" : null,
+    "repContactNo" : null,
+    "repEmail" : null,
+    "remarks" : null,
+    "customerNotification" : null,
+    "errorDetails" : null
+  } ]
+}

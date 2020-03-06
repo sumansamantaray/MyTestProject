@@ -1,0 +1,98 @@
+{
+    "messageId": "C2FB69509-190813103727",
+    "customerId": "GIM",
+    "orderId": "19566",
+    "orderStatus": "Build",
+    "orderType": "PreFoc",
+    "orderDate": "2019-06-26T18:26:50.889+0000",
+    "pon": "PWO66627",
+    "productName": "TLS",
+    "orderMilestoneInfo": [
+        {
+            "version": 1,
+            "milestoneDate": "2019-08-13T14:38:17.259+0000",
+            "customerNotification": {
+                "milestoneCompletionDate": "2019-08-13T14:38:17.259+0000",
+                "minorMilestoneDetails": {
+                    "milestoneAttributes": [
+                        [
+                            {
+                                "name": "Facility Availability Date Scheduled",
+                                "value": "2019-08-16T04:00:00.000+0000"
+                            },
+                            {
+                                "name": "Facility Availability Date Completed",
+                                "value": "2019-08-09T04:00:00.000+0000"
+                            }
+                        ]
+                    ]
+                }
+            },
+            "milestoneLabel": "Construction"
+        },
+        {
+            "version": 1,
+            "milestoneDate": "2019-08-13T14:38:17.017+0000",
+            "customerNotification": {
+                "milestoneCompletionDate": "2019-08-13T14:38:17.017+0000",
+                "minorMilestoneDetails": {
+                    "milestoneAttributes": [
+                        [
+                            {
+                                "name": "Engineering Work Order",
+                                "value": "1A3S7DH"
+                            },
+                            {
+                                "name": "Capacity Creation Report",
+                                "value": "10156947"
+                            }
+                        ]
+                    ]
+                }
+            },
+            "milestoneLabel": "Engineering"
+        },
+        {
+            "version": 1,
+            "milestoneDate": "2019-07-25T15:13:09.496+0000",
+            "customerNotification": {
+                "milestoneCompletionDate": "2019-07-25T15:13:09.496+0000",
+                "minorMilestoneDetails": {
+                    "milestoneAttributes": [
+                        [
+                            {
+                                "name": "Customer Ready Date",
+                                "value": "2019-08-06T04:00:00.000+0000"
+                            },
+                            {
+                                "name": "Power Description",
+                                "value": null
+                            },
+                            {
+                                "name": "Space Description",
+                                "value": null
+                            },
+                            {
+                                "name": "Backboard Description",
+                                "value": null
+                            },
+                            {
+                                "name": "Required Contingencies",
+                                "value": null
+                            },
+                            {
+                                "name": "Customer Desired Due Date",
+                                "value": null
+                            },
+                            {
+                                "name": "Remarks",
+                                "value": null
+                            }
+                        ]
+                    ]
+                }
+            },
+            "milestoneLabel": "Customer Ready Details"
+        }
+    ]
+}
